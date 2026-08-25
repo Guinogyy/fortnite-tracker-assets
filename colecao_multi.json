@@ -1,0 +1,126 @@
+{
+    "a": {
+        "avatar": "avatar_2.jpg",
+        "colecao": {
+            "Elemental 108": {
+                "pegou": true,
+                "dominou": true
+            }
+        },
+        "vbucks": 0,
+        "avatares_comprados": [
+            "avatar_1.jpg",
+            "avatar_2.jpg"
+        ]
+    },
+    "henrique": {
+        "avatar": "avatar_1.jpg",
+        "colecao": {},
+        "vbucks": 0,
+        "avatares_comprados": [
+            "avatar_1.jpg"
+        ]
+    },
+    "gui": {
+        "avatar": "avatar_1.jpg",
+        "colecao": {
+            "Elemental 1": {
+                "pegou": true,
+                "dominou": true
+            },
+            "Elemental 2": {
+                "pegou": true,
+                "dominou": true
+            },
+            "Elemental 3": {
+                "pegou": true,
+                "dominou": true
+            },
+            "Elemental 4": {
+                "pegou": true,
+                "dominou": true
+            },
+            "Elemental 6": {
+                "pegou": true,
+                "dominou": true
+            },
+            "Elemental 5": {
+                "pegou": true,
+                "dominou": true
+            },
+            "Elemental 7": {
+                "pegou": true,
+                "dominou": true
+            },
+            "Elemental 8": {
+                "pegou": true,
+                "dominou": true
+            },
+            "Elemental 13": {
+                "pegou": true,
+                "dominou": true
+            },
+            "Elemental 9": {
+                "pegou": true,
+                "dominou": true
+            },
+            "Elemental 10": {
+                "pegou": true,
+                "dominou": true
+            },
+            "Elemental 11": {
+                "pegou": true,
+                "dominou": true
+            },
+            "Elemental 12": {
+                "pegou": true,
+                "dominou": true
+            }
+        },
+        "vbucks": 0,
+        "avatares_comprados": [
+            "avatar_1.jpg"
+        ]
+    },
+    "Henrique": {
+        "avatar": "avatar_1.jpg",
+        "colecao": {},
+        "vbucks": 0,
+        "avatares_comprados": [
+            "avatar_1.jpg"
+        ]
+    },
+    "Gui": {
+        "avatar": "avatar_4.jpg",
+        "colecao": {
+            "Elemental 60": {
+                "pegou": true,
+                "dominou": false
+            },
+            "Elemental 12": {
+                "pegou": true,
+                "dominou": true
+            },
+            "Elemental 11": {
+                "pegou": true,
+                "dominou": true
+            },
+            "Elemental 10": {
+                "pegou": true,
+                "dominou": true
+            },
+            "Elemental 9": {
+                "pegou": true,
+                "dominou": true
+            },
+            "Elemental 5": {
+                "pegou": true,
+                "dominou": true
+            }
+        },
+        "vbucks": 0,
+        "avatares_comprados": [
+            "avatar_4.jpg"
+        ]
+    }
+}

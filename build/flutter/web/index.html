@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <base href="/">
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="tracker-fortnite">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png" />
+
+  <title>tracker-fortnite</title>
+  <link rel="manifest" href="manifest.json">
+
+  <script>
+    var flet = {
+      pyodide: true,
+      multiView: false,
+      noCdn: "False".toLowerCase() == "true",
+      webSocketEndpoint: "/ws",
+      entrypointBaseUrl: "/",
+      assetBase: "/",
+      routeUrlStrategy: "path",
+      canvasKitBaseUrl: "/canvaskit/",
+      // .mjs is required: python-worker.js is a module worker and loads
+      // the runtime via dynamic `import()`. Pyodide >= 0.29 also refuses
+      // to run in classic workers. Use the local copy that `flet build`
+      // drops into web/pyodide/ when --no-cdn is set; otherwise pull
+      // from jsdelivr so the build artifact can stay slim.
+      
+      pyodideUrl: "https://cdn.jsdelivr.net/pyodide/v314.0.3/full/pyodide.mjs",
+      
+      pythonModuleName: "main",
+      webRenderer: "canvaskit",
+      fontFallbackBaseUrl: "assets/fonts/", // for Noto Emoji, use Google CDN
+      appPackageUrl: "assets/app/app.zip"
+    }
+
+    flet.flutterAppLoaded = new Promise((resolve) => {
+      flet.flutterAppResolve = resolve;
+    });
+
+    flet.flutterAppLoaded.then((flutterApp) => {
+      console.log("Flutter app loaded");
+    });
+  </script>
+  <script src="python.js"></script>
+</head>
+
+<body>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+
+</html>

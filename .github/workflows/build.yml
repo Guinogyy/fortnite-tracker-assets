@@ -1,0 +1,36 @@
+name: Build Flet Windows App
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build-windows:
+    runs-on: windows-latest
+
+    steps:
+    - name: Baixar Código do Repositório
+      uses: actions/checkout@v4
+
+    - name: Configurar Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Instalar Dependências
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Compilar App Flet para Windows
+      env:
+        PYTHONIOENCODING: utf-8
+      run: echo "y" | flet build windows
+
+    - name: Enviar Executável como Artefato
+      uses: actions/upload-artifact@v4
+      with:
+        name: executavel-windows
+        path: build/windows/
