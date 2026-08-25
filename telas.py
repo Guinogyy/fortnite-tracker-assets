@@ -20,7 +20,7 @@ def get_asset(caminho):
     link_base_github = "https://raw.githubusercontent.com/Guinogyy/fortnite-tracker-assets/main/"
     return f"{link_base_github}{caminho}?v=nova_temporada"
 
-fundo_imagem = ft.DecorationImage(src="https://images.hdqwalls.com/download/fortnite-landscape-p0-1920x1080.jpg", fit=ft.BoxFit.COVER)
+fundo_imagem = ft.DecorationImage(src="https://raw.githubusercontent.com/Guinogyy/fortnite-tracker-assets/refs/heads/main/Gemini_Generated_Image_p89qaip89qaip89q.jpg", fit=ft.BoxFit.COVER)
 fundo_azul_clean = ft.RadialGradient(center=ft.alignment.Alignment(0, 0), radius=1.5, colors=["#1a78c2", "#08305c"])
 fundo_fortnite = ft.LinearGradient(begin=ft.alignment.Alignment(0, -1), end=ft.alignment.Alignment(0, 1), colors=["#1a4b8c", "#0b2545"])
 

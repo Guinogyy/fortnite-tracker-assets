@@ -82,10 +82,10 @@ def carregar_loja_avatars():
     return [
         # --- OS SEUS AVATARES ATUAIS ---
         {"arquivo": "avatar_1.jpg", "nome": "O Ceifador", "raridade": "lendario", "preco": 500, "tag": ""},
-        {"arquivo": "avatar_2.jpg", "nome": "Rapina", "raridade": "lendario", "preco": 500, "tag": "Main do Henrique"},
-        {"arquivo": "avatar_3.jpg", "nome": "Foco", "raridade": "epico", "preco": 200, "tag": "A Braba da Emanuelly"},
-        {"arquivo": "avatar_4.jpg", "nome": "Hera Venenosa", "raridade": "raro", "preco": 150, "tag": "Escolha do Talisson"},
-        {"arquivo": "avatar_5.jpg", "nome": "Arlequina", "raridade": "incomum", "preco": 100, "tag": "Clássica do Jessé"},
+        {"arquivo": "avatar_2.jpg", "nome": "Rapina", "raridade": "lendario", "preco": 500, "tag": ""},
+        {"arquivo": "avatar_3.jpg", "nome": "Foco", "raridade": "epico", "preco": 200, "tag": ""},
+        {"arquivo": "avatar_4.jpg", "nome": "Hera Venenosa", "raridade": "raro", "preco": 150, "tag": ""},
+        {"arquivo": "avatar_5.jpg", "nome": "Arlequina", "raridade": "incomum", "preco": 100, "tag": ""},
 
         # --- OS 46 AVATARES NOVOS ---
         {"arquivo": "avatar_6.jpg", "nome": "Fabi Furtiva", "raridade": "raro", "preco": 150, "tag": ""},
